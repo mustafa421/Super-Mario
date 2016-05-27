@@ -449,7 +449,7 @@ public class Main extends Application {
 
         buttonContainer = new HBox(22, play, hScore, credits, quit);
         buttonContainer.setAlignment(Pos.BOTTOM_CENTER);
-        buttonContainer.setPadding(new Insets(0, 0, (REL_HEIGHT * 20.0), 0));
+        buttonContainer.setPadding(new Insets(0, 0, (REL_HEIGHT * 60.0), 0));
 
         splashView = new ImageView(splash);
         creditsView = new ImageView(creditsImg);
